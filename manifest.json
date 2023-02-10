@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Economic Calendar",
+    "version": "1.0.1",
+    "description": "Do not waste time and money for not knowing how the economic calendar is, using this extension will help you",
+    "author": "ModdyDev",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "options_page": "options/options.html",
+    "permissions": [
+        "storage"
+    ]
+}

@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar Options</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-item">Economic Calendar</div>
+      <div class="nav-item">Rate</div>
+      <div class="nav-item">Donate</div>
+      <div class="nav-item">Support</div>
+      <div class="nav-item">Apply</div>
+    </nav>
+  </header>
+
+  <main>
+    <fieldset>
+      <legend class="i18n" data-text="theme">Customize Colors:</legend>
+      <div class="row colors-content">
+        <label>
+          <input type="color" class="color-picker" id="data-background-color" value="#b3b3b3" />
+          <span class="i18n" data-text="data-background-color">Background</span>
+        </label>
+        <label>
+          <input type="color" class="color-picker" id="text-color" value="#333333" />
+          <span class="i18n" data-text="data-text-color">Text</span>
+        </label>
+        <label>
+          <input type="color" class="color-picker" id="data-dividers-color" value="#d9d9d9" />
+          <span class="i18n" data-text="data-dividers-color">Dividers</span>
+        </label>
+      </div>
+      <div class="row colors-content">
+        <label>
+          <input type="color" class="color-picker" id="data-border-color" value="#bababa" />
+          <span class="i18n" data-text="data-border-color">Border</span>
+        </label>
+        <label>
+          <input type="color" class="color-picker" id="data-date-font-color" value="#ffffff" />
+          <span class="i18n" data-text="data-date-font-color">Date Font</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="i18n" data-text="theme">Default Time Zone:</legend>
+      <div class="group">
+        <div class="row">
+          <label for="defaulttimezone" class="i18n" data-text="default_time_zone">Default Time Zone:</label>
+          <select name="defaulttimezone" id="defaulttimezone">
+            <option value="2">(GMT -11:00) Midway Island</option>
+            <option value="35">(GMT -11:00) Samoa</option>
+            <option value="3">(GMT -10:00) Hawaii</option>
+            <option value="4">(GMT -9:00) Alaska</option>
+            <option value="36">(GMT -8:00) Baja California</option>
+            <option value="5">
+              (GMT -8:00) Pacific Time (US &amp; Canada)
+            </option>
+            <option value="37">(GMT -7:00) Arizona</option>
+            <option value="38">
+              (GMT -7:00) Chihuahua, La Paz, Mazatlan
+            </option>
+            <option value="6">
+              (GMT -7:00) Mountain Time (US &amp; Canada)
+            </option>
+            <option value="39">(GMT -6:00) Central America</option>
+            <option value="7">
+              (GMT -6:00) Central Time (US &amp; Canada)
+            </option>
+            <option value="40">
+              (GMT -6:00) Guadalajara, Mexico City, Monterrey
+            </option>
+            <option value="41">(GMT -6:00) Saskatchewan</option>
+            <option value="42">(GMT -5:00) Bogota, Lima, Quito</option>
+            <option value="8" selected="">
+              (GMT -5:00) Eastern Time (US &amp; Canada)
+            </option>
+            <option value="43">(GMT -5:00) Indiana (East)</option>
+            <option value="10">(GMT -4:00) Atlantic Time (Canada)</option>
+            <option value="9">(GMT -4:00) Caracas</option>
+            <option value="45">(GMT -4:00) Cuiaba</option>
+            <option value="46">
+              (GMT -4:00) Georgetown, La Paz, Manaus, San Juan
+            </option>
+            <option value="11">(GMT -3:30) Newfoundland</option>
+            <option value="44">(GMT -3:00) Asuncion</option>
+            <option value="12">(GMT -3:00) Brasilia</option>
+            <option value="48">(GMT -3:00) Buenos Aires</option>
+            <option value="49">(GMT -3:00) Cayenne, Fortaleza</option>
+            <option value="50">(GMT -3:00) Greenland</option>
+            <option value="51">(GMT -3:00) Montevideo</option>
+            <option value="47">(GMT -3:00) Santiago</option>
+            <option value="14">(GMT -1:00) Azores</option>
+            <option value="53">(GMT -1:00) Cape Verde Is.</option>
+            <option value="55">(GMT) Coordinated Universal Time</option>
+            <option value="15">
+              (GMT) Dublin, Edinburgh, Lisbon, London
+            </option>
+            <option value="56">(GMT) Monrovia, Reykjavik</option>
+            <option value="16">
+              (GMT +1:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+            </option>
+            <option value="57">
+              (GMT +1:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+            </option>
+            <option value="58">
+              (GMT +1:00) Brussels, Copenhagen, Madrid, Paris
+            </option>
+            <option value="54">(GMT +1:00) Casablanca</option>
+            <option value="166">(GMT +1:00) Lagos</option>
+            <option value="59">
+              (GMT +1:00) Sarajevo, Skopje, Warsaw, Zagreb
+            </option>
+            <option value="60">(GMT +1:00) West Central Africa</option>
+            <option value="62">(GMT +2:00) Amman</option>
+            <option value="64">(GMT +2:00) Beirut</option>
+            <option value="65">(GMT +2:00) Cairo</option>
+            <option value="66">(GMT +2:00) Damascus</option>
+            <option value="68">
+              (GMT +2:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius
+            </option>
+            <option value="17">(GMT +2:00) Jerusalem</option>
+            <option value="67">(GMT +02:00) Johannesburg</option>
+            <option value="61">(GMT +2:00) Windhoek</option>
+            <option value="71">(GMT +3:00) Baghdad</option>
+            <option value="63">(GMT +3:00) Istanbul</option>
+            <option value="70">(GMT +3:00) Kuwait, Riyadh</option>
+            <option value="18">
+              (GMT +3:00) Moscow, St. Petersburg, Volgograd
+            </option>
+            <option value="72">(GMT +3:00) Nairobi</option>
+            <option value="19">(GMT +3:30) Tehran</option>
+            <option value="20">(GMT +4:00) Abu Dhabi, Dubai, Muscat</option>
+            <option value="73">(GMT +4:00) Baku</option>
+            <option value="21">(GMT +4:30) Kabul</option>
+            <option value="22">(GMT +5:00) Ekaterinburg</option>
+            <option value="77">(GMT +5:00) Karachi</option>
+            <option value="23">
+              (GMT +5:30) Chennai, Kolkata, Mumbai, New Delhi
+            </option>
+            <option value="79">(GMT +5:30) Colombo</option>
+            <option value="24">(GMT +5:45) Kathmandu</option>
+            <option value="25">(GMT +6:00) Dhaka</option>
+            <option value="26">(GMT +6:30) Yangon (Rangoon)</option>
+            <option value="27">(GMT +7:00) Bangkok, Hanoi, Jakarta</option>
+            <option value="28">
+              (GMT +8:00) Beijing, Chongqing, Hong Kong, Urumqi
+            </option>
+            <option value="178">(GMT +08:00) Manila</option>
+            <option value="113">(GMT +8:00) Singapore</option>
+            <option value="29">(GMT +9:00) Osaka, Sapporo, Tokyo</option>
+            <option value="88">(GMT +9:00) Seoul</option>
+            <option value="91">(GMT +10:00) Brisbane</option>
+            <option value="94">(GMT +10:00) Vladivostok</option>
+            <option value="30">(GMT +10:30) Adelaide</option>
+            <option value="31">
+              (GMT +11:00) Canberra, Melbourne, Sydney
+            </option>
+            <option value="32">
+              (GMT +11:00) Solomon Is., New Caledonia
+            </option>
+            <option value="1">(GMT +12:00) Eniwetok, Kwajalein</option>
+            <option value="33">(GMT +13:00) Auckland, Wellington</option>
+          </select>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="i18n" data-text="theme">Customize Columns:</legend>
+      <div class="row colors-content">
+        <label>
+          <input type="checkbox" id="data-columns-flags" />
+          <span class="i18n" data-text="data-columns-flags">Flags</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-columns-flags" />
+          <span class="i18n" data-text="data-columns-flags">Currency</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-columns-flags" />
+          <span class="i18n" data-text="data-columns-flags">Importance</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-columns-actual" />
+          <span class="i18n" data-text="data-columns-actual">Actual</span>
+        </label>
+      </div>
+      <div class="row colors-content">
+        <label>
+          <input type="checkbox" id="data-columns-forecast" />
+          <span class="i18n" data-text="data-columns-forecast">Forecast</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-columns-previous" />
+          <span class="i18n" data-text="data-columns-previous">Previous</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="i18n" data-text="theme">Calendar Type:</legend>
+      <div class="row">
+        <label for="defaulttimezone" class="i18n" data-text="default_time_zone">Default Time Zone:</label>
+        <select name="calendartype" id="calendartype">
+          <option value="week">Weekly</option>
+          <option value="day">Daily</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="i18n" data-text="theme">Customize Countries:</legend>
+      <div id="getCountriesListViewAllDiv" class="advancedBox">
+        <div class="selectClearAll">Select All Clear</div>
+        <div id="getCountriesListViewDefaultDiv" class="colsWrap WMTSectionWrap">
+          <ul class="alignTop firstRow">
+            <li title="Albania">
+              <input id="95" type="checkbox" />
+              <label for="95"><span class="ceFlags Albania middle"></span><span
+                  class="countryName">Albania</span></label>
+            </li>
+            <li title="Angola">
+              <input id="86" type="checkbox" />
+              <label for="86"><span class="ceFlags Angola middle"></span><span class="countryName">Angola</span></label>
+            </li>
+            <li title="Argentina">
+              <input id="29" type="checkbox" />
+              <label for="29"><span class="ceFlags Argentina middle"></span><span
+                  class="countryName">Argentina</span></label>
+            </li>
+            <li title="Australia">
+              <input id="25" type="checkbox" checked="" />
+              <label for="25"><span class="ceFlags Australia middle"></span><span
+                  class="countryName">Australia</span></label>
+            </li>
+            <li title="Austria">
+              <input id="54" type="checkbox" />
+              <label for="54"><span class="ceFlags Austria middle"></span><span
+                  class="countryName">Austria</span></label>
+            </li>
+            <li title="Azerbaijan">
+              <input id="114" type="checkbox" />
+              <label for="114"><span class="ceFlags Azerbaijan middle"></span><span
+                  class="countryName">Azerbaijan</span></label>
+            </li>
+            <li title="Bahrain">
+              <input id="145" type="checkbox" />
+              <label for="145"><span class="ceFlags Bahrain middle"></span><span
+                  class="countryName">Bahrain</span></label>
+            </li>
+            <li title="Bangladesh">
+              <input id="47" type="checkbox" />
+              <label for="47"><span class="ceFlags Bangladesh middle"></span><span
+                  class="countryName">Bangladesh</span></label>
+            </li>
+            <li title="Belgium">
+              <input id="34" type="checkbox" />
+              <label for="34"><span class="ceFlags Belgium middle"></span><span
+                  class="countryName">Belgium</span></label>
+            </li>
+            <li title="Bosnia-Herzegovina">
+              <input id="174" type="checkbox" />
+              <label for="174"><span class="ceFlags Bosnia middle"></span><span
+                  class="countryName">Bosnia-Herzegovina</span></label>
+            </li>
+            <li title="Botswana">
+              <input id="163" type="checkbox" />
+              <label for="163"><span class="ceFlags Botswana middle"></span><span
+                  class="countryName">Botswana</span></label>
+            </li>
+            <li title="Brazil">
+              <input id="32" type="checkbox" checked="" />
+              <label for="32"><span class="ceFlags Brazil middle"></span><span class="countryName">Brazil</span></label>
+            </li>
+            <li title="Bulgaria">
+              <input id="70" type="checkbox" />
+              <label for="70"><span class="ceFlags Bulgaria middle"></span><span
+                  class="countryName">Bulgaria</span></label>
+            </li>
+            <li title="Canada">
+              <input id="6" type="checkbox" checked="" />
+              <label for="6"><span class="ceFlags Canada middle"></span><span class="countryName">Canada</span></label>
+            </li>
+            <li title="Cayman Islands">
+              <input id="232" type="checkbox" />
+              <label for="232"><span class="ceFlags Cayman_Islands middle"></span><span class="countryName">Cayman
+                  Islands</span></label>
+            </li>
+            <li title="Chile">
+              <input id="27" type="checkbox" />
+              <label for="27"><span class="ceFlags Chile middle"></span><span class="countryName">Chile</span></label>
+            </li>
+            <li title="China">
+              <input id="37" type="checkbox" checked="" />
+              <label for="37"><span class="ceFlags China middle"></span><span class="countryName">China</span></label>
+            </li>
+            <li title="Colombia">
+              <input id="122" type="checkbox" />
+              <label for="122"><span class="ceFlags Colombia middle"></span><span
+                  class="countryName">Colombia</span></label>
+            </li>
+            <li title="Costa Rica">
+              <input id="15" type="checkbox" />
+              <label for="15"><span class="ceFlags Costa_Rica middle"></span><span class="countryName">Costa
+                  Rica</span></label>
+            </li>
+            <li title="Cote D'Ivoire">
+              <input id="78" type="checkbox" />
+              <label for="78"><span class="ceFlags Cote_dIvoire middle"></span><span class="countryName">Cote
+                  D'Ivoire</span></label>
+            </li>
+            <li title="Croatia">
+              <input id="113" type="checkbox" />
+              <label for="113"><span class="ceFlags Croatia middle"></span><span
+                  class="countryName">Croatia</span></label>
+            </li>
+            <li title="Cyprus">
+              <input id="107" type="checkbox" />
+              <label for="107"><span class="ceFlags Cyprus middle"></span><span
+                  class="countryName">Cyprus</span></label>
+            </li>
+            <li title="Czech Republic">
+              <input id="55" type="checkbox" />
+              <label for="55"><span class="ceFlags Czech_Republic middle"></span><span class="countryName">Czech
+                  Republic</span></label>
+            </li>
+            <li title="Denmark">
+              <input id="24" type="checkbox" />
+              <label for="24"><span class="ceFlags Denmark middle"></span><span
+                  class="countryName">Denmark</span></label>
+            </li>
+            <li title="Ecuador">
+              <input id="121" type="checkbox" />
+              <label for="121"><span class="ceFlags Ecuador middle"></span><span
+                  class="countryName">Ecuador</span></label>
+            </li>
+            <li title="Egypt">
+              <input id="59" type="checkbox" />
+              <label for="59"><span class="ceFlags Egypt middle"></span><span class="countryName">Egypt</span></label>
+            </li>
+            <li title="Estonia">
+              <input id="89" type="checkbox" />
+              <label for="89"><span class="ceFlags Estonia middle"></span><span
+                  class="countryName">Estonia</span></label>
+            </li>
+          </ul>
+          <ul class="alignTop firstRow">
+            <li title="Euro Zone">
+              <input id="72" type="checkbox" checked="" />
+              <label for="72"><span class="ceFlags Europe middle"></span><span class="countryName">Euro
+                  Zone</span></label>
+            </li>
+            <li title="Finland">
+              <input id="71" type="checkbox" />
+              <label for="71"><span class="ceFlags Finland middle"></span><span
+                  class="countryName">Finland</span></label>
+            </li>
+            <li title="France">
+              <input id="22" type="checkbox" checked="" />
+              <label for="22"><span class="ceFlags France middle"></span><span class="countryName">France</span></label>
+            </li>
+            <li title="Germany">
+              <input id="17" type="checkbox" checked="" />
+              <label for="17"><span class="ceFlags Germany middle"></span><span
+                  class="countryName">Germany</span></label>
+            </li>
+            <li title="Ghana">
+              <input id="74" type="checkbox" />
+              <label for="74"><span class="ceFlags Ghana middle"></span><span class="countryName">Ghana</span></label>
+            </li>
+            <li title="Greece">
+              <input id="51" type="checkbox" />
+              <label for="51"><span class="ceFlags Greece middle"></span><span class="countryName">Greece</span></label>
+            </li>
+            <li title="Hong Kong">
+              <input id="39" type="checkbox" checked="" />
+              <label for="39"><span class="ceFlags Hong_Kong middle"></span><span class="countryName">Hong
+                  Kong</span></label>
+            </li>
+            <li title="Hungary">
+              <input id="93" type="checkbox" />
+              <label for="93"><span class="ceFlags Hungary middle"></span><span
+                  class="countryName">Hungary</span></label>
+            </li>
+            <li title="Iceland">
+              <input id="106" type="checkbox" />
+              <label for="106"><span class="ceFlags Iceland middle"></span><span
+                  class="countryName">Iceland</span></label>
+            </li>
+            <li title="India">
+              <input id="14" type="checkbox" checked="" />
+              <label for="14"><span class="ceFlags India middle"></span><span class="countryName">India</span></label>
+            </li>
+            <li title="Indonesia">
+              <input id="48" type="checkbox" />
+              <label for="48"><span class="ceFlags Indonesia middle"></span><span
+                  class="countryName">Indonesia</span></label>
+            </li>
+            <li title="Iraq">
+              <input id="66" type="checkbox" />
+              <label for="66"><span class="ceFlags Iraq middle"></span><span class="countryName">Iraq</span></label>
+            </li>
+            <li title="Ireland">
+              <input id="33" type="checkbox" />
+              <label for="33"><span class="ceFlags Ireland middle"></span><span
+                  class="countryName">Ireland</span></label>
+            </li>
+            <li title="Israel">
+              <input id="23" type="checkbox" />
+              <label for="23"><span class="ceFlags Israel middle"></span><span class="countryName">Israel</span></label>
+            </li>
+            <li title="Italy">
+              <input id="10" type="checkbox" checked="" />
+              <label for="10"><span class="ceFlags Italy middle"></span><span class="countryName">Italy</span></label>
+            </li>
+            <li title="Jamaica">
+              <input id="119" type="checkbox" />
+              <label for="119"><span class="ceFlags Jamaica middle"></span><span
+                  class="countryName">Jamaica</span></label>
+            </li>
+            <li title="Japan">
+              <input id="35" type="checkbox" checked="" />
+              <label for="35"><span class="ceFlags Japan middle"></span><span class="countryName">Japan</span></label>
+            </li>
+            <li title="Jordan">
+              <input id="92" type="checkbox" />
+              <label for="92"><span class="ceFlags Jordan middle"></span><span class="countryName">Jordan</span></label>
+            </li>
+            <li title="Kazakhstan">
+              <input id="102" type="checkbox" />
+              <label for="102"><span class="ceFlags Kazakhstan middle"></span><span
+                  class="countryName">Kazakhstan</span></label>
+            </li>
+            <li title="Kenya">
+              <input id="57" type="checkbox" />
+              <label for="57"><span class="ceFlags Kenya middle"></span><span class="countryName">Kenya</span></label>
+            </li>
+            <li title="Kuwait">
+              <input id="94" type="checkbox" />
+              <label for="94"><span class="ceFlags Kuwait middle"></span><span class="countryName">Kuwait</span></label>
+            </li>
+            <li title="Kyrgyzstan">
+              <input id="204" type="checkbox" />
+              <label for="204"><span class="ceFlags Kyrgyzstan middle"></span><span
+                  class="countryName">Kyrgyzstan</span></label>
+            </li>
+            <li title="Latvia">
+              <input id="97" type="checkbox" />
+              <label for="97"><span class="ceFlags Latvia middle"></span><span class="countryName">Latvia</span></label>
+            </li>
+            <li title="Lebanon">
+              <input id="68" type="checkbox" />
+              <label for="68"><span class="ceFlags Lebanon middle"></span><span
+                  class="countryName">Lebanon</span></label>
+            </li>
+            <li title="Lithuania">
+              <input id="96" type="checkbox" />
+              <label for="96"><span class="ceFlags Lithuania middle"></span><span
+                  class="countryName">Lithuania</span></label>
+            </li>
+            <li title="Luxembourg">
+              <input id="103" type="checkbox" />
+              <label for="103"><span class="ceFlags Luxembourg middle"></span><span
+                  class="countryName">Luxembourg</span></label>
+            </li>
+            <li title="Malawi">
+              <input id="111" type="checkbox" />
+              <label for="111"><span class="ceFlags Malawi middle"></span><span
+                  class="countryName">Malawi</span></label>
+            </li>
+          </ul>
+          <ul class="alignTop firstRow">
+            <li title="Malaysia">
+              <input id="42" type="checkbox" />
+              <label for="42"><span class="ceFlags Malaysia middle"></span><span
+                  class="countryName">Malaysia</span></label>
+            </li>
+            <li title="Malta">
+              <input id="109" type="checkbox" />
+              <label for="109"><span class="ceFlags Malta middle"></span><span class="countryName">Malta</span></label>
+            </li>
+            <li title="Mauritius">
+              <input id="188" type="checkbox" />
+              <label for="188"><span class="ceFlags Mauritius middle"></span><span
+                  class="countryName">Mauritius</span></label>
+            </li>
+            <li title="Mexico">
+              <input id="7" type="checkbox" />
+              <label for="7"><span class="ceFlags Mexico middle"></span><span class="countryName">Mexico</span></label>
+            </li>
+            <li title="Mongolia">
+              <input id="139" type="checkbox" />
+              <label for="139"><span class="ceFlags Mongolia middle"></span><span
+                  class="countryName">Mongolia</span></label>
+            </li>
+            <li title="Montenegro">
+              <input id="247" type="checkbox" />
+              <label for="247"><span class="ceFlags Montenegro middle"></span><span
+                  class="countryName">Montenegro</span></label>
+            </li>
+            <li title="Morocco">
+              <input id="105" type="checkbox" />
+              <label for="105"><span class="ceFlags Morocco middle"></span><span
+                  class="countryName">Morocco</span></label>
+            </li>
+            <li title="Mozambique">
+              <input id="82" type="checkbox" />
+              <label for="82"><span class="ceFlags Mozambique middle"></span><span
+                  class="countryName">Mozambique</span></label>
+            </li>
+            <li title="Namibia">
+              <input id="172" type="checkbox" />
+              <label for="172"><span class="ceFlags Namibia middle"></span><span
+                  class="countryName">Namibia</span></label>
+            </li>
+            <li title="Netherlands">
+              <input id="21" type="checkbox" />
+              <label for="21"><span class="ceFlags Netherlands middle"></span><span
+                  class="countryName">Netherlands</span></label>
+            </li>
+            <li title="New Zealand">
+              <input id="43" type="checkbox" checked="" />
+              <label for="43"><span class="ceFlags New_Zealand middle"></span><span class="countryName">New
+                  Zealand</span></label>
+            </li>
+            <li title="Nigeria">
+              <input id="20" type="checkbox" />
+              <label for="20"><span class="ceFlags Nigeria middle"></span><span
+                  class="countryName">Nigeria</span></label>
+            </li>
+            <li title="Norway">
+              <input id="60" type="checkbox" />
+              <label for="60"><span class="ceFlags Norway middle"></span><span class="countryName">Norway</span></label>
+            </li>
+            <li title="Oman">
+              <input id="87" type="checkbox" />
+              <label for="87"><span class="ceFlags Oman middle"></span><span class="countryName">Oman</span></label>
+            </li>
+            <li title="Pakistan">
+              <input id="44" type="checkbox" />
+              <label for="44"><span class="ceFlags Pakistan middle"></span><span
+                  class="countryName">Pakistan</span></label>
+            </li>
+            <li title="Palestinian Territory">
+              <input id="193" type="checkbox" />
+              <label for="193"><span class="ceFlags Palestine middle"></span><span class="countryName">Palestinian
+                  Territory</span></label>
+            </li>
+            <li title="Paraguay">
+              <input id="148" type="checkbox" />
+              <label for="148"><span class="ceFlags Paraguay middle"></span><span
+                  class="countryName">Paraguay</span></label>
+            </li>
+            <li title="Peru">
+              <input id="125" type="checkbox" />
+              <label for="125"><span class="ceFlags Peru middle"></span><span class="countryName">Peru</span></label>
+            </li>
+            <li title="Philippines">
+              <input id="45" type="checkbox" />
+              <label for="45"><span class="ceFlags Philippines middle"></span><span
+                  class="countryName">Philippines</span></label>
+            </li>
+            <li title="Poland">
+              <input id="53" type="checkbox" />
+              <label for="53"><span class="ceFlags Poland middle"></span><span class="countryName">Poland</span></label>
+            </li>
+            <li title="Portugal">
+              <input id="38" type="checkbox" />
+              <label for="38"><span class="ceFlags Portugal middle"></span><span
+                  class="countryName">Portugal</span></label>
+            </li>
+            <li title="Qatar">
+              <input id="170" type="checkbox" />
+              <label for="170"><span class="ceFlags Qatar middle"></span><span class="countryName">Qatar</span></label>
+            </li>
+            <li title="Romania">
+              <input id="100" type="checkbox" />
+              <label for="100"><span class="ceFlags Romania middle"></span><span
+                  class="countryName">Romania</span></label>
+            </li>
+            <li title="Russia">
+              <input id="56" type="checkbox" checked="" />
+              <label for="56"><span class="ceFlags Russian_Federation middle"></span><span
+                  class="countryName">Russia</span></label>
+            </li>
+            <li title="Rwanda">
+              <input id="80" type="checkbox" />
+              <label for="80"><span class="ceFlags Rwanda middle"></span><span class="countryName">Rwanda</span></label>
+            </li>
+            <li title="Saudi Arabia">
+              <input id="52" type="checkbox" />
+              <label for="52"><span class="ceFlags Saudi_Arabia middle"></span><span class="countryName">Saudi
+                  Arabia</span></label>
+            </li>
+            <li title="Serbia">
+              <input id="238" type="checkbox" />
+              <label for="238"><span class="ceFlags Serbia middle"></span><span
+                  class="countryName">Serbia</span></label>
+            </li>
+          </ul>
+          <ul class="alignTop firstRow">
+            <li title="Singapore">
+              <input id="36" type="checkbox" checked="" />
+              <label for="36"><span class="ceFlags Singapore middle"></span><span
+                  class="countryName">Singapore</span></label>
+            </li>
+            <li title="Slovakia">
+              <input id="90" type="checkbox" />
+              <label for="90"><span class="ceFlags Slovakia middle"></span><span
+                  class="countryName">Slovakia</span></label>
+            </li>
+            <li title="Slovenia">
+              <input id="112" type="checkbox" />
+              <label for="112"><span class="ceFlags Slovenia middle"></span><span
+                  class="countryName">Slovenia</span></label>
+            </li>
+            <li title="South Africa">
+              <input id="110" type="checkbox" checked="" />
+              <label for="110"><span class="ceFlags South_Africa middle"></span><span class="countryName">South
+                  Africa</span></label>
+            </li>
+            <li title="South Korea">
+              <input id="11" type="checkbox" checked="" />
+              <label for="11"><span class="ceFlags South_Korea middle"></span><span class="countryName">South
+                  Korea</span></label>
+            </li>
+            <li title="Spain">
+              <input id="26" type="checkbox" checked="" />
+              <label for="26"><span class="ceFlags Spain middle"></span><span class="countryName">Spain</span></label>
+            </li>
+            <li title="Sri Lanka">
+              <input id="162" type="checkbox" />
+              <label for="162"><span class="ceFlags Sri_Lanka middle"></span><span class="countryName">Sri
+                  Lanka</span></label>
+            </li>
+            <li title="Sweden">
+              <input id="9" type="checkbox" />
+              <label for="9"><span class="ceFlags Sweden middle"></span><span class="countryName">Sweden</span></label>
+            </li>
+            <li title="Switzerland">
+              <input id="12" type="checkbox" checked="" />
+              <label for="12"><span class="ceFlags Switzerland middle"></span><span
+                  class="countryName">Switzerland</span></label>
+            </li>
+            <li title="Taiwan">
+              <input id="46" type="checkbox" />
+              <label for="46"><span class="ceFlags Taiwan middle"></span><span class="countryName">Taiwan</span></label>
+            </li>
+            <li title="Tanzania">
+              <input id="85" type="checkbox" />
+              <label for="85"><span class="ceFlags Tanzania middle"></span><span
+                  class="countryName">Tanzania</span></label>
+            </li>
+            <li title="Thailand">
+              <input id="41" type="checkbox" />
+              <label for="41"><span class="ceFlags Thailand middle"></span><span
+                  class="countryName">Thailand</span></label>
+            </li>
+            <li title="Tunisia">
+              <input id="202" type="checkbox" />
+              <label for="202"><span class="ceFlags Tunisia middle"></span><span
+                  class="countryName">Tunisia</span></label>
+            </li>
+            <li title="Türkiye">
+              <input id="63" type="checkbox" />
+              <label for="63"><span class="ceFlags Turkey middle"></span><span
+                  class="countryName">Türkiye</span></label>
+            </li>
+            <li title="Uganda">
+              <input id="123" type="checkbox" />
+              <label for="123"><span class="ceFlags Uganda middle"></span><span
+                  class="countryName">Uganda</span></label>
+            </li>
+            <li title="Ukraine">
+              <input id="61" type="checkbox" />
+              <label for="61"><span class="ceFlags Ukraine middle"></span><span
+                  class="countryName">Ukraine</span></label>
+            </li>
+            <li title="United Arab Emirates">
+              <input id="143" type="checkbox" />
+              <label for="143"><span class="ceFlags Dubai middle"></span><span class="countryName">United Arab
+                  Emirates</span></label>
+            </li>
+            <li title="United Kingdom">
+              <input id="4" type="checkbox" checked="" />
+              <label for="4"><span class="ceFlags UK middle"></span><span class="countryName">United
+                  Kingdom</span></label>
+            </li>
+            <li title="United States">
+              <input id="5" type="checkbox" checked="" />
+              <label for="5"><span class="ceFlags USA middle"></span><span class="countryName">United
+                  States</span></label>
+            </li>
+            <li title="Uruguay">
+              <input id="180" type="checkbox" />
+              <label for="180"><span class="ceFlags Uruguay middle"></span><span
+                  class="countryName">Uruguay</span></label>
+            </li>
+            <li title="Uzbekistan">
+              <input id="168" type="checkbox" />
+              <label for="168"><span class="ceFlags Uzbekistan middle"></span><span
+                  class="countryName">Uzbekistan</span></label>
+            </li>
+            <li title="Venezuela">
+              <input id="138" type="checkbox" />
+              <label for="138"><span class="ceFlags Venezuela middle"></span><span
+                  class="countryName">Venezuela</span></label>
+            </li>
+            <li title="Vietnam">
+              <input id="178" type="checkbox" />
+              <label for="178"><span class="ceFlags Vietnam middle"></span><span
+                  class="countryName">Vietnam</span></label>
+            </li>
+            <li title="Zambia">
+              <input id="84" type="checkbox" />
+              <label for="84"><span class="ceFlags Zambia middle"></span><span class="countryName">Zambia</span></label>
+            </li>
+            <li title="Zimbabwe">
+              <input id="75" type="checkbox" />
+              <label for="75"><span class="ceFlags Zimbabwe middle"></span><span
+                  class="countryName">Zimbabwe</span></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="selectClearAll">Select All Clear</div>
+      <legend class="i18n" data-text="theme">Customize Category:</legend>
+      <div class="row colors-content">
+        <label>
+          <input type="checkbox" id="data-category-employment" />
+          <span class="i18n" data-text="data-category-employment">Employment</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-category-economic-activity" />
+          <span class="i18n" data-text="data-category-economic-activity">Economic Activity</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-category-inflation" />
+          <span class="i18n" data-text="data-category-inflation">Inflation</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-category-credit" />
+          <span class="i18n" data-text="data-category-credit">Credit</span>
+        </label>
+      </div>
+      <div class="row colors-content">
+        <label>
+          <input type="checkbox" id="data-category-central-banks" />
+          <span class="i18n" data-text="data-category-central-banks">Central Banks</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-category-confidence-index" />
+          <span class="i18n" data-text="data-category-confidence-index">Confidence Index</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-category-balance" />
+          <span class="i18n" data-text="data-category-balance">Balance</span>
+        </label>
+        <label>
+          <input type="checkbox" id="data-category-bonds" />
+          <span class="i18n" data-text="data-category-bonds">Bonds</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="i18n" data-text="theme">Customize Importance:</legend>
+      <div class="row colors-content">
+        <label>
+          <input type="checkbox" id="data-importance-one" />
+          <label for="1" class="elp"><i class="grayFullBullishIcon"></i><i class="grayEmptyBullishIcon"></i><i class="grayEmptyBullishIcon"></i></label>
+        </label>
+        <label>
+          <input type="checkbox" id="data-importance-two" />
+          <label for="2" class="elp"><i class="grayFullBullishIcon"></i><i class="grayFullBullishIcon"></i><i class="grayEmptyBullishIcon"></i></label>
+        </label>
+        <label>
+          <input type="checkbox" id="data-importance-three" />
+          <label for="3" class="elp"><i class="grayFullBullishIcon"></i><i class="grayFullBullishIcon"></i><i class="grayFullBullishIcon"></i></label>
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="i18n" data-text="theme">Feature Selection:</legend>
+      <label>
+        <input type="checkbox" id="data-features-date-picker" />
+        <span class="i18n" data-text="data-features-date-picker">Date Picker</span>
+      </label>
+      <label>
+        <input type="checkbox" id="data-features-timezone-change" />
+        <span class="i18n" data-text="data-features-timezone-change">Timezone Change</span>
+      </label>
+      <label>
+        <input type="checkbox" id="data-features-show-time-selection-buttons" />
+        <span class="i18n" data-text="data-features-show-time-selection-buttons">Show Time selection buttons</span>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" id="data-features-show-filter-box" />
+        <span class="i18n" data-text="data-features-show-filter-box">Show Filter Box</span>
+      </label>
+    </fieldset>
+
+  </main>
+
+  <script src="options.js"></script>
+</body>
+
+</html>

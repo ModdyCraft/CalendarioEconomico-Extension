@@ -1,0 +1,2603 @@
+body {
+  font-family: "Segoe UI", "San Francisco", Ubuntu, "Open Sans", Roboto, Arial,
+    sans-serif;
+  font-size: 1em;
+  background-color: #202124;
+  color: #e8eaed;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 880px;
+  width: 100%;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+header {
+  background-color: #292a2d;
+  box-shadow: #000 0px 0.25em 0.5em -0.25em;
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+nav a {
+  color: #e8eaed;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  margin: 2em auto;
+  max-width: 720px;
+  width: 95%;
+}
+
+fieldset {
+  background-color: #292a2d;
+  border: 0.077em solid #141414;
+  border-radius: 0.25em;
+  box-shadow: #000 0px 0.25em 0.5em -0.25em;
+  margin-bottom: 2em;
+  padding: 0.8em;
+}
+
+legend,
+.control-label {
+  font-weight: bold;
+}
+
+.row {
+  margin-bottom: 0.5em;
+}
+
+span {
+  margin-right: 1em;
+}
+
+#backgroundcolor {
+  margin: 0 0.5em;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.color-picker {
+  background-color: #202124;
+  border-color: gray;
+}
+
+.color-picker:hover {
+  border-color: white;
+}
+
+.colors-content {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+.group {
+  margin-bottom: 1.25em;
+}
+
+.colsWrap {
+  display: table;
+  width: 652px;
+  padding-top: 15px;
+}
+
+.advancedBox .firstRow,
+.customizeColor .firstRow {
+  margin-top: 0;
+}
+
+.colsWrap ul {
+  margin: 0;
+  padding-right: 3px;
+  width: 280px;
+  display: inline-block;
+}
+
+.top,
+.alignTop {
+  vertical-align: top !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+#getCountriesListViewDefaultDiv li {
+  overflow: initial;
+  white-space: initial;
+  text-overflow: initial;
+}
+
+li {
+  font-size: 18px;
+}
+
+.ceFlags {
+  width: 16px;
+  height: 15px;
+  background-image: url(https://i-invdn-com.investing.com/ce_flags_v25.png);
+  background-repeat: no-repeat;
+  padding: 0;
+  display: inline-block;
+}
+
+.middle {
+  vertical-align: middle !important;
+}
+
+.ASEAN {
+  background-position: 0 0;
+}
+.Afghanistan {
+  background-position: 0 -17px;
+}
+.AfricanUnion {
+  background-position: 0 -34px;
+}
+.Albania {
+  background-position: 0 -51px;
+}
+.Algeria {
+  background-position: 0 -68px;
+}
+.AmericanSamoa {
+  background-position: 0 -85px;
+}
+.Andorra {
+  background-position: 0 -102px;
+}
+.Angola {
+  background-position: 0 -119px;
+}
+.Anguilla {
+  background-position: 0 -136px;
+}
+.Antarctica {
+  background-position: 0 -153px;
+}
+.AntiguaBarbuda {
+  background-position: 0 -169px;
+}
+.ArabLeague {
+  background-position: 0 -187px;
+}
+.Argentina,
+.ars {
+  background-position: 0 -204px;
+}
+.Armenia {
+  background-position: 0 -221px;
+}
+.Aruba {
+  background-position: 0 -238px;
+}
+.Australia,
+.aus,
+.aud {
+  background-position: 0 -255px;
+}
+.Austria {
+  background-position: 0 -272px;
+}
+.Azerbaijan {
+  background-position: 0 -289px;
+}
+.Bahamas {
+  background-position: 0 -306px;
+}
+.Bahrain {
+  background-position: 0 -323px;
+}
+.Bangladesh {
+  background-position: 0 -340px;
+}
+.Barbados {
+  background-position: 0 -357px;
+}
+.Belarus {
+  background-position: 0 -374px;
+}
+.Belgium {
+  background-position: 0 -391px;
+}
+.Belize {
+  background-position: 0 -408px;
+}
+.Benin {
+  background-position: 0 -425px;
+}
+.Bermuda {
+  background-position: 0 -442px;
+}
+.Bhutan {
+  background-position: 0 -459px;
+}
+.Bolivia {
+  background-position: 0 -476px;
+}
+.Bosnia,
+.Bosnia_and_Herzegovina {
+  background-position: 0 -493px;
+}
+.Botswana {
+  background-position: 0 -510px;
+}
+.Bouvet_Island {
+  background-position: -17px -680px;
+}
+.Brazil,
+.brl {
+  background-position: 0 -527px;
+}
+.Brunei {
+  background-position: 0 -544px;
+}
+.Bulgaria {
+  background-position: 0 -561px;
+}
+.BurkinaFaso {
+  background-position: 0 -578px;
+}
+.Burundi {
+  background-position: 0 -595px;
+}
+.CARICOM {
+  background-position: 0 -612px;
+}
+.CIS {
+  background-position: 0 -629px;
+}
+.Cambodja {
+  background-position: 0 -646px;
+}
+.Cameroon {
+  background-position: 0 -663px;
+}
+.Canada,
+.can,
+.cad {
+  background-position: 0 -680px;
+}
+.CapeVerde,
+.Cape_Verde {
+  background-position: 0 -697px;
+}
+.Cayman_Islands {
+  background-position: 0 -714px;
+}
+.Central_African_Republic {
+  background-position: 0 -731px;
+}
+.Chad {
+  background-position: 0 -748px;
+}
+.Chile,
+.clp {
+  background-position: 0 -765px;
+}
+.China,
+.cny {
+  background-position: 0 -782px;
+}
+.Colombia,
+.cop {
+  background-position: 0 -799px;
+}
+.Commonwealth {
+  background-position: 0 -816px;
+}
+.Comoros {
+  background-position: 0 -833px;
+}
+.Congo-Brazzaville {
+  background-position: 0 -850px;
+}
+.Congo-KinshasaZaire {
+  background-position: 0 -867px;
+}
+.Cook_Islands {
+  background-position: 0 -884px;
+}
+.Costa_Rica {
+  background-position: 0 -901px;
+}
+.Cote_dIvoire {
+  background-position: 0 -918px;
+}
+.Croatia {
+  background-position: 0 -935px;
+}
+.Cuba {
+  background-position: 0 -952px;
+}
+.Cyprus {
+  background-position: 0 -969px;
+}
+.Czech_Republic,
+.czk {
+  background-position: 0 -986px;
+}
+.Denmark,
+.dkk {
+  background-position: 0 -1003px;
+}
+.Djibouti {
+  background-position: 0 -1020px;
+}
+.Dominica {
+  background-position: 0 -1037px;
+}
+.Dominican_Republic {
+  background-position: 0 -1054px;
+}
+.Dubai {
+  background-position: -17px -1819px;
+}
+.EastTimor {
+  background-position: 0 -1071px;
+}
+.Ecuador {
+  background-position: 0 -1088px;
+}
+.Egypt {
+  background-position: 0 -1105px;
+}
+.El_Salvador {
+  background-position: 0 -1122px;
+}
+.England {
+  background-position: 0 -1139px;
+}
+.EquatorialGuinea {
+  background-position: 0 -1156px;
+}
+.Eritrea {
+  background-position: 0 -1173px;
+}
+.Estonia {
+  background-position: 0 -1190px;
+}
+.Ethiopia {
+  background-position: 0 -1207px;
+}
+.European_Union,
+.eur,
+.Europe {
+  background-position: 0 -1224px;
+}
+.Faroe_Islands,
+.Faroes {
+  background-position: 0 -1241px;
+}
+.Fiji {
+  background-position: 0 -1258px;
+}
+.Finland {
+  background-position: 0 -1275px;
+}
+.France {
+  background-position: 0 -1292px;
+}
+.French_Guiana {
+  background-position: -34px -204px;
+}
+.Gabon {
+  background-position: 0 -1309px;
+}
+.Gambia {
+  background-position: 0 -1326px;
+}
+.Georgia {
+  background-position: 0 -1343px;
+}
+.Germany {
+  background-position: 0 -1360px;
+}
+.Ghana {
+  background-position: 0 -1377px;
+}
+.Gibraltar {
+  background-position: 0 -1394px;
+}
+.Greece {
+  background-position: 0 -1411px;
+}
+.Greenland {
+  background-position: 0 -1428px;
+}
+.Grenada {
+  background-position: 0 -1445px;
+}
+.Guadeloupe {
+  background-position: 0 -1462px;
+}
+.Guademala {
+  background-position: 0 -1479px;
+}
+.Guam {
+  background-position: 0 -1496px;
+}
+.Guinea-Bissau {
+  background-position: 0 -1513px;
+}
+.Guinea {
+  background-position: 0 -1530px;
+}
+.Guyana {
+  background-position: 0 -1547px;
+}
+.Haiti {
+  background-position: 0 -1564px;
+}
+.Honduras {
+  background-position: 0 -1581px;
+}
+.Hong_Kong,
+.hkd {
+  background-position: 0 -1598px;
+}
+.Hungary,
+.huf {
+  background-position: 0 -1615px;
+}
+.Iceland {
+  background-position: 0 -1632px;
+}
+.India,
+.inr {
+  background-position: 0 -1649px;
+}
+.Indonesia,
+.idr {
+  background-position: 0 -1666px;
+}
+.Iran {
+  background-position: 0 -1683px;
+}
+.Iraq {
+  background-position: 0 -1700px;
+}
+.Ireland {
+  background-position: 0 -1717px;
+}
+.IslamicConference {
+  background-position: 0 -1734px;
+}
+.Israel {
+  background-position: 0 -1751px;
+}
+.Italy {
+  background-position: 0 -1768px;
+}
+.Jamaica {
+  background-position: 0 -1785px;
+}
+.Japan,
+.jpn,
+.jpy {
+  background-position: 0 -1802px;
+}
+.Jersey {
+  background-position: 0 -1819px;
+}
+.Jordan {
+  background-position: 0 -1836px;
+}
+.Kazakhstan {
+  background-position: 0 -1853px;
+}
+.Kenya {
+  background-position: 0 -1869px;
+}
+.Kiribati {
+  background-position: 0 -1887px;
+}
+.Kuwait {
+  background-position: 0 -1904px;
+}
+.Kyrgyzstan {
+  background-position: 0 -1921px;
+}
+.Laos {
+  background-position: 0 -1938px;
+}
+.Latvia {
+  background-position: 0 -1955px;
+}
+.Lebanon {
+  background-position: 0 -1972px;
+}
+.Lesotho {
+  background-position: 0 -1989px;
+}
+.Liberia {
+  background-position: -17px 0;
+}
+.Libya {
+  background-position: -17px -17px;
+}
+.Liechtenstein {
+  background-position: -17px -34px;
+}
+.Lithuania {
+  background-position: -17px -51px;
+}
+.Luxembourg {
+  background-position: -17px -68px;
+}
+.Macao {
+  background-position: -17px -85px;
+}
+.Macedonia {
+  background-position: -17px -102px;
+}
+.Madagascar {
+  background-position: -17px -119px;
+}
+.Malawi {
+  background-position: -17px -136px;
+}
+.Malaysia,
+.myr {
+  background-position: -17px -153px;
+}
+.Maldives {
+  background-position: -17px -169px;
+}
+.Mali {
+  background-position: -17px -187px;
+}
+.Malta {
+  background-position: -17px -204px;
+}
+.MarshallIslands {
+  background-position: -17px -221px;
+}
+.Martinique {
+  background-position: -17px -238px;
+}
+.Mauritania {
+  background-position: -17px -255px;
+}
+.Mauritius {
+  background-position: -17px -272px;
+}
+.Mexico,
+.mxn {
+  background-position: -17px -289px;
+}
+.Micronesia {
+  background-position: -17px -306px;
+}
+.Moldova {
+  background-position: -17px -323px;
+}
+.Monaco {
+  background-position: -17px -340px;
+}
+.Mongolia {
+  background-position: -17px -357px;
+}
+.Montenegro {
+  background-position: -17px -374px;
+}
+.Montserrat {
+  background-position: -17px -391px;
+}
+.Morocco {
+  background-position: -17px -408px;
+}
+.Mozambique {
+  background-position: -17px -425px;
+}
+.MyanmarBurma {
+  background-position: -17px -442px;
+}
+.NATO {
+  background-position: -17px -459px;
+}
+.Namibia {
+  background-position: -17px -476px;
+}
+.Nauru {
+  background-position: -17px -493px;
+}
+.Nepal {
+  background-position: -17px -510px;
+}
+.Netherlands {
+  background-position: -17px -527px;
+}
+.Netherlands_Antilles {
+  background-position: -17px -544px;
+}
+.New_Zealand,
+.nzl,
+.nzd {
+  background-position: -17px -561px;
+}
+.Nicaragua {
+  background-position: -17px -578px;
+}
+.Niger {
+  background-position: -17px -595px;
+}
+.Nigeria {
+  background-position: -17px -612px;
+}
+.Norfolk_Island {
+  background-position: -34px -169px;
+}
+.NorthKorea {
+  background-position: -17px -629px;
+}
+.NorthernIreland {
+  background-position: -17px -646px;
+}
+.Northern_Cyprus {
+  background-position: -17px -663px;
+}
+.Norway,
+.nok {
+  background-position: -17px -680px;
+}
+.OPEC {
+  background-position: -17px -697px;
+}
+.OlimpicMovement {
+  background-position: -17px -714px;
+}
+.Oman {
+  background-position: -17px -731px;
+}
+.Pakistan {
+  background-position: -17px -748px;
+}
+.Palau {
+  background-position: -17px -765px;
+}
+.Palestine,
+.Palestinian_Territory {
+  background-position: -17px -782px;
+}
+.Panama {
+  background-position: -17px -799px;
+}
+.Papua_New_Guinea {
+  background-position: -17px -816px;
+}
+.Paraguay {
+  background-position: -17px -833px;
+}
+.Peru,
+.pen {
+  background-position: -17px -850px;
+}
+.Philippines,
+.php {
+  background-position: -17px -867px;
+}
+.Poland,
+.pln {
+  background-position: -17px -884px;
+}
+.Portugal {
+  background-position: -17px -901px;
+}
+.PuertoRico {
+  background-position: -17px -918px;
+}
+.Qatar {
+  background-position: -17px -935px;
+}
+.RedCross {
+  background-position: -17px -952px;
+}
+.Reunion {
+  background-position: -17px -969px;
+}
+.Romania {
+  background-position: -17px -986px;
+}
+.Russian_Federation,
+.rub {
+  background-position: -17px -1003px;
+}
+.Rwanda {
+  background-position: -17px -1020px;
+}
+.SaintLucia {
+  background-position: -17px -1037px;
+}
+.Samoa {
+  background-position: -17px -1054px;
+}
+.SanMarino {
+  background-position: -17px -1071px;
+}
+.Sao_Tome_Principe {
+  background-position: -17px -1088px;
+}
+.Saudi_Arabia {
+  background-position: -17px -1105px;
+}
+.Scotland {
+  background-position: -17px -1122px;
+}
+.Senegal {
+  background-position: -17px -1139px;
+}
+.Serbia {
+  background-position: -17px -1156px;
+}
+.Seychelles {
+  background-position: -17px -1173px;
+}
+.SierraLeone {
+  background-position: -17px -1190px;
+}
+.Singapore,
+.sgd {
+  background-position: -17px -1207px;
+}
+.Slovakia {
+  background-position: -17px -1224px;
+}
+.Slovenia {
+  background-position: -17px -1241px;
+}
+.Solomon_Islands {
+  background-position: -17px -1258px;
+}
+.Somalia {
+  background-position: -17px -1275px;
+}
+.Somaliland {
+  background-position: -17px -1292px;
+}
+.South_Afriica,
+.South_Africa,
+.zar {
+  background-position: -17px -1309px;
+}
+.South_Korea,
+.krw {
+  background-position: -17px -1326px;
+}
+.Spain {
+  background-position: -17px -1343px;
+}
+.Sri_Lanka {
+  background-position: -17px -1360px;
+}
+.StKittsNevis {
+  background-position: -17px -1377px;
+}
+.StVincenttheGrenadines,
+.Saint_Vincent_and_the_Grenadines {
+  background-position: -17px -1394px;
+}
+.Sudan {
+  background-position: -17px -1411px;
+}
+.Suriname {
+  background-position: -17px -1428px;
+}
+.Swaziland {
+  background-position: -17px -1445px;
+}
+.Sweden,
+.sek {
+  background-position: -17px -1462px;
+}
+.Switzerland,
+.che,
+.chf {
+  background-position: -17px -1479px;
+}
+.Syria {
+  background-position: -17px -1496px;
+}
+.TahitiFrenchPolinesia {
+  background-position: -17px -1513px;
+}
+.Taiwan,
+.twd {
+  background-position: -17px -2005px;
+}
+.Tajikistan {
+  background-position: -17px -1547px;
+}
+.Tanzania {
+  background-position: -17px -1564px;
+}
+.Thailand,
+.thb {
+  background-position: -17px -1581px;
+}
+.Timor-Leste {
+  background-position: -17px -1598px;
+}
+.Togo {
+  background-position: -17px -1615px;
+}
+.Tokelau {
+  background-position: -34px -187px;
+}
+.Tonga {
+  background-position: -17px -1632px;
+}
+.Trinidad_Tobago {
+  background-position: -17px -1649px;
+}
+.Tunisia {
+  background-position: -17px -1666px;
+}
+.Turkey,
+.try {
+  background-position: -17px -1683px;
+}
+.Turkmenistan {
+  background-position: -17px -1690px;
+}
+.TurksandCaicosIslands {
+  background-position: -17px -1717px;
+}
+.Tuvalu {
+  background-position: -17px -1734px;
+}
+.USA,
+.USD,
+.usa,
+.usd,
+.United_States {
+  background-position: -17px -1751px;
+}
+.Uganda {
+  background-position: -17px -1768px;
+}
+.Ukraine,
+.uah {
+  background-position: -17px -1785px;
+}
+.UnitedNations {
+  background-position: -17px -1802px;
+}
+.United_Arab_Emirates {
+  background-position: -17px -1819px;
+}
+.UK,
+.United_Kingdom,
+.gbr,
+.gbp {
+  background-position: -17px -1836px;
+}
+.Uruguay {
+  background-position: -17px -1853px;
+}
+.Uzbekistan {
+  background-position: -17px -1869px;
+}
+.Vanuatu {
+  background-position: -17px -1887px;
+}
+.VaticanCity {
+  background-position: -17px -1904px;
+}
+.Venezuela,
+.vef {
+  background-position: -17px -1921px;
+}
+.Viet_Nam,
+.vnd,
+.Vietnam {
+  background-position: -17px -1938px;
+}
+.VirginIslandsBritish,
+.British_Virgin_Islands {
+  background-position: -17px -1955px;
+}
+.VirginIslandsUS,
+.Virgin_Islands_US {
+  background-position: -17px -1972px;
+}
+.Wales {
+  background-position: -17px -1989px;
+}
+.WesternSahara {
+  background-position: -34px 0;
+}
+.Yemen {
+  background-position: -34px -17px;
+}
+.Zambia {
+  background-position: -34px -34px;
+}
+.Zimbabwe {
+  background-position: -34px -51px;
+}
+.worldFlag {
+  background-position: -34px -68px;
+}
+.saintHelena,
+.SHP {
+  background-position: -34px -85px;
+}
+.bitcoin,
+.BTC {
+  background-position: -34px -119px;
+}
+.lightcoin,
+.LTC {
+  background-position: -34px -102px;
+}
+.gold,
+.XAU,
+.GAU {
+  background-position: -34px -153px;
+}
+.silver,
+.XAG {
+  background-position: -34px -136px;
+}
+.opec {
+  background-position: -34px -221px;
+}
+.ehteriumclassic {
+  background-position: -34px -255px;
+}
+.dash {
+  background-position: -34px -289px;
+}
+.ripple {
+  background-position: -34px -238px;
+}
+.ethereum {
+  background-position: -34px -272px;
+}
+.zcash {
+  background-position: -34px -306px;
+}
+.monero {
+  background-position: -34px -323px;
+}
+.bitShares {
+  background-position: -34px -342px;
+}
+.eos {
+  background-position: -34px -357px;
+}
+.siacoin {
+  background-position: -34px -374px;
+}
+.tether {
+  background-position: -34px -391px;
+}
+.antshares {
+  background-position: -34px -580px;
+}
+.bitConnect {
+  background-position: -34px -544px;
+}
+.iota {
+  background-position: -34px -528px;
+}
+.nem {
+  background-position: -34px -510px;
+}
+.qtum {
+  background-position: -34px -493px;
+}
+.steem {
+  background-position: -34px -476px;
+}
+.stratis {
+  background-position: -34px -459px;
+}
+.veritaseum {
+  background-position: -34px -442px;
+}
+.waves {
+  background-position: -34px -408px;
+}
+.bitcoinCash {
+  background-position: -34px -561px;
+}
+.zrx {
+  background-position: -55px -1px;
+}
+.adEx {
+  background-position: -72px -1px;
+}
+.aragon {
+  background-position: -89px -1px;
+}
+.ardor {
+  background-position: -55px -18px;
+}
+.ark {
+  background-position: -72px -18px;
+}
+.asch {
+  background-position: -89px -18px;
+}
+.augur {
+  background-position: -55px -34px;
+}
+.bancor {
+  background-position: -72px -34px;
+}
+.basicAttentionToken {
+  background-position: -89px -34px;
+}
+.binanceCoin {
+  background-position: -54px -52px;
+}
+.bitcoindark {
+  background-position: -71px -52px;
+}
+.bitquence {
+  background-position: -89px -52px;
+}
+.blocknet {
+  background-position: -54px -69px;
+}
+.byteball {
+  background-position: -71px -68px;
+}
+.bytecoin {
+  background-position: -89px -68px;
+}
+.bytom {
+  background-position: -54px -85px;
+}
+.civic {
+  background-position: -72px -85px;
+}
+.cofound-it {
+  background-position: -89px --85px;
+}
+.coindash {
+  background-position: -55px -103px;
+}
+.decent {
+  background-position: -73px -103px;
+}
+.decred {
+  background-position: -89px -103px;
+}
+.digiByte {
+  background-position: -55px -120px;
+}
+.digixDAO {
+  background-position: -73px -120px;
+}
+.district0x {
+  background-position: -89px -120px;
+}
+.dogecoin {
+  background-position: -55px -137px;
+}
+.edgeless {
+  background-position: -73px -137px;
+}
+.emercoin {
+  background-position: -89px -137px;
+}
+.factom {
+  background-position: -55px -154px;
+}
+.firstBlood {
+  background-position: -73px -154px;
+}
+.funFair {
+  background-position: -89px -154px;
+}
+.gameCredits {
+  background-position: -55px -171px;
+}
+.gas {
+  background-position: -73px -171px;
+}
+.gnosis {
+  background-position: -89px -171px;
+}
+.golem {
+  background-position: -55px -188px;
+}
+.hshareCash {
+  background-position: -73px -188px;
+}
+.ico {
+  background-position: -89px -188px;
+}
+.iconomi {
+  background-position: -73px -222px;
+}
+.iExec_RLC {
+  background-position: -89px -222px;
+}
+.komodo {
+  background-position: -55px -205px;
+}
+.lisk {
+  background-position: -73px -205px;
+}
+.lykke {
+  background-position: -89px -205px;
+}
+.maidSafeCoin {
+  background-position: -55px -222px;
+}
+.mcap {
+  background-position: -55px -239px;
+}
+.melon {
+  background-position: -73px -239px;
+}
+.metal {
+  background-position: -89px -239px;
+}
+.metaverse_etp {
+  background-position: -54px -256px;
+}
+.mobileGo {
+  background-position: -73px -256px;
+}
+.monacoCrypto {
+  background-position: -89px -256px;
+}
+.nexus {
+  background-position: -54px -273px;
+}
+.nolimitcoin {
+  background-position: -73px -273px;
+}
+.nxt {
+  background-position: -89px -272px;
+}
+.omiseGO {
+  background-position: -54px -290px;
+}
+.particl {
+  background-position: -73px -290px;
+}
+.pillar {
+  background-position: -89px -290px;
+}
+.populous {
+  background-position: -73px -307px;
+}
+.singulardtv {
+  background-position: -89px -307px;
+}
+.status {
+  background-position: -53px -324px;
+}
+.stellar_lumens {
+  background-position: -72px -324px;
+}
+.storj {
+  background-position: -89px -324px;
+}
+.stox {
+  background-position: -54px -341px;
+}
+.sysCoin {
+  background-position: -72px -341px;
+}
+.tenX {
+  background-position: -89px -341px;
+}
+.tierion {
+  background-position: -54px -358px;
+}
+.tokencard {
+  background-position: -72px -358px;
+}
+.ubiqCash {
+  background-position: -89px -358px;
+}
+.verge {
+  background-position: -54px -375px;
+}
+.wings {
+  background-position: -72px -375px;
+}
+.artbyte {
+  background-position: -53px -393px;
+}
+.auroracoin {
+  background-position: -71px -391px;
+}
+.aventus {
+  background-position: -87px -393px;
+}
+.bela {
+  background-position: -52px -408px;
+}
+.bitbay {
+  background-position: -69px -409px;
+}
+.bitbean {
+  background-position: -85px -409px;
+}
+.bitcoin_plus {
+  background-position: -52px -425px;
+}
+.bitcore {
+  background-position: -69px -425px;
+}
+.bitcrystals {
+  background-position: -87px -425px;
+}
+.bitdice {
+  background-position: -52px -443px;
+}
+.bitswift {
+  background-position: -69px -444px;
+}
+.blackcoin {
+  background-position: -87px -443px;
+}
+.blackmoon_crypto {
+  background-position: -52px -461px;
+}
+.blitzcash {
+  background-position: -70px -460px;
+}
+.blockmason_credit_protocol {
+  background-position: -87px -460px;
+}
+.blocktix {
+  background-position: -52px -477px;
+}
+.bread {
+  background-position: -71px -478px;
+}
+.breakout {
+  background-position: -87px -477px;
+}
+.breakout_stake {
+  background-position: -52px -494px;
+}
+.burst {
+  background-position: -69px -494px;
+}
+.byteball-bytes {
+  background-position: -88px -495px;
+}
+.bytecent {
+  background-position: -51px -511px;
+}
+.cannabiscoin {
+  background-position: -69px -511px;
+}
+.cappasity {
+  background-position: -87px -511px;
+}
+.capricoin {
+  background-position: -51px -528px;
+}
+.cardano {
+  background-position: -69px -528px;
+}
+.centra {
+  background-position: -87px -528px;
+}
+.chainlink {
+  background-position: -51px -545px;
+}
+.cindicator {
+  background-position: -69px -545px;
+}
+.circuits_of_value {
+  background-position: -87px -545px;
+}
+.clams {
+  background-position: -51px -562px;
+}
+.clearpoll {
+  background-position: -69px -562px;
+}
+.cloakcoin {
+  background-position: -87px -562px;
+}
+.counterparty {
+  background-position: -52px -580px;
+}
+.creditbit {
+  background-position: -69px -580px;
+}
+.crown {
+  background-position: -87px -579px;
+}
+.cryptocurrencies_site {
+  background-position: -34px -597px;
+}
+.cryptonex {
+  background-position: -52px -597px;
+}
+.curecoin {
+  background-position: -69px -597px;
+}
+.databits {
+  background-position: -87px -597px;
+}
+.decentraland {
+  background-position: -34px -613px;
+}
+.dent {
+  background-position: -51px -613px;
+}
+.diamond {
+  background-position: -69px -613px;
+}
+.digitalnote {
+  background-position: -87px -613px;
+}
+.dopecoin {
+  background-position: -34px -631px;
+}
+.dynamic {
+  background-position: -51px -631px;
+}
+.ebitcoin {
+  background-position: -68px -631px;
+}
+.eboost {
+  background-position: -87px -631px;
+}
+.e-gulden {
+  background-position: -34px -648px;
+}
+.eidoo {
+  background-position: -52px -648px;
+}
+.einsteinium {
+  background-position: -69px -648px;
+}
+.elastic {
+  background-position: -87px -648px;
+}
+.energycoin {
+  background-position: -34px -665px;
+}
+.enigma {
+  background-position: -52px -664px;
+}
+.enjin_coin {
+  background-position: -71px -664px;
+}
+.etherparty {
+  background-position: -87px -664px;
+}
+.ethlend {
+  background-position: -34px -682px;
+}
+.europecoin {
+  background-position: -53px -682px;
+}
+.everex {
+  background-position: -71px -682px;
+}
+.evergreencoin {
+  background-position: -87px -682px;
+}
+.exchange_union {
+  background-position: -34px -699px;
+}
+.exclusivecoin {
+  background-position: -52px -699px;
+}
+.expanse {
+  background-position: -70px -699px;
+}
+.faircoin {
+  background-position: -87px -698px;
+}
+.fantomcoin {
+  background-position: -34px -716px;
+}
+.feathercoin {
+  background-position: -51px -716px;
+}
+.florincoin {
+  background-position: -69px -716px;
+}
+.foldingcoin {
+  background-position: -87px -716px;
+}
+.gambit {
+  background-position: -34px -733px;
+}
+.genesis-vision {
+  background-position: -51px -733px;
+}
+.geocoin {
+  background-position: -69px -733px;
+}
+.global_currency_reserve {
+  background-position: -87px -733px;
+}
+.goldcoin {
+  background-position: -34px -750px;
+}
+.golos {
+  background-position: -51px -750px;
+}
+.gridcoin {
+  background-position: -69px -750px;
+}
+.groestlcoin {
+  background-position: -87px -750px;
+}
+.gxshares {
+  background-position: -34px -767px;
+}
+.hempcoin {
+  background-position: -52px -767px;
+}
+.hive {
+  background-position: -69px -767px;
+}
+.humaniq {
+  background-position: -87px -767px;
+}
+.huntercoin {
+  background-position: -34px -782px;
+}
+.icon_c {
+  background-position: -52px -782px;
+}
+.incent {
+  background-position: -69px -782px;
+}
+.indorse_token {
+  background-position: -87px -782px;
+}
+.influxcoin {
+  background-position: -34px -801px;
+}
+.internet_of_people {
+  background-position: -52px -800px;
+}
+.io_coin {
+  background-position: -69px -801px;
+}
+.ion {
+  background-position: -87px -801px;
+}
+.ixledger {
+  background-position: -34px -818px;
+}
+.kickcoin {
+  background-position: -52px -817px;
+}
+.kore {
+  background-position: -69px -818px;
+}
+.kyber_network {
+  background-position: -87px -817px;
+}
+.lampix {
+  background-position: -34px -835px;
+}
+.lbry_credits {
+  background-position: -53px -835px;
+}
+.legends_room {
+  background-position: -71px -835px;
+}
+.lomocoin {
+  background-position: -87px -835px;
+}
+.loopring {
+  background-position: -34px -852px;
+}
+.lunyr {
+  background-position: -52px -851px;
+}
+.maecenas {
+  background-position: -70px -851px;
+}
+.magi {
+  background-position: -87px -852px;
+}
+.matchpool {
+  background-position: -34px -869px;
+}
+.mercury {
+  background-position: -53px -869px;
+}
+.modum {
+  background-position: -71px -869px;
+}
+.moeda_loyalty_points {
+  background-position: -87px -869px;
+}
+.monacoin {
+  background-position: -34px -886px;
+}
+.monetaryunit {
+  background-position: -53px -886px;
+}
+.monetha {
+  background-position: -71px -886px;
+}
+.musicoin {
+  background-position: -88px -886px;
+}
+.myriad {
+  background-position: -35px -902px;
+}
+.mysterium {
+  background-position: -53px -903px;
+}
+.namecoin {
+  background-position: -70px -902px;
+}
+.nav-coin {
+  background-position: -87px -903px;
+}
+.neoscoin {
+  background-position: -87px -512px;
+}
+.nexium {
+  background-position: -34px -920px;
+}
+.nimiq {
+  background-position: -70px -919px;
+}
+.nubits {
+  background-position: -87px -920px;
+}
+.numeraire {
+  background-position: -34px -937px;
+}
+.oax {
+  background-position: -53px -937px;
+}
+.obsidian {
+  background-position: -71px -937px;
+}
+.okcash {
+  background-position: -88px -936px;
+}
+.omni {
+  background-position: -34px -954px;
+}
+.paragon {
+  background-position: -53px -954px;
+}
+.parkbyte {
+  background-position: -71px -954px;
+}
+.pascal_coin {
+  background-position: -87px -512px;
+}
+.patientory {
+  background-position: -34px -969px;
+}
+.peercoin {
+  background-position: -52px -969px;
+}
+.pesetacoin {
+  background-position: -70px -969px;
+}
+.pinkcoin {
+  background-position: -87px -969px;
+}
+.pivx {
+  background-position: -34px -988px;
+}
+.po_et {
+  background-position: -53px -988px;
+}
+.polybius {
+  background-position: -71px -988px;
+}
+.potcoin {
+  background-position: -87px -987px;
+}
+.power_ledger {
+  background-position: -34px -1005px;
+}
+.Presearch {
+  background-position: -53px -1005px;
+}
+.primecoin {
+  background-position: -71px -1005px;
+}
+.project_decorum {
+  background-position: -87px -1005px;
+}
+.propy {
+  background-position: -34px -1022px;
+}
+.qash {
+  background-position: -52px -1021px;
+}
+.quantstamp {
+  background-position: -70px -1021px;
+}
+.quantum_resistant_ledger {
+  background-position: -87px -1022px;
+}
+.qwark {
+  background-position: -34px -1039px;
+}
+.radium {
+  background-position: -52px -1038px;
+}
+.raiden_network_token {
+  background-position: -70px -1021px;
+}
+.reddcoin {
+  background-position: -87px -1021px;
+}
+.request_network {
+  background-position: -34px -1056px;
+}
+.Riecoin {
+  background-position: -53px -1056px;
+}
+.Ripio-Credit-Network {
+  background-position: -71px -1056px;
+}
+.rise {
+  background-position: -87px -1056px;
+}
+.rivetz {
+  background-position: -34px -1073px;
+}
+.rubycoin {
+  background-position: -52px -1072px;
+}
+.salt {
+  background-position: -70px -1072px;
+}
+.salus {
+  background-position: -87px -1073px;
+}
+.santiment_network_token {
+  background-position: -34px -1090px;
+}
+.segwit2x {
+  background-position: -52px -1089px;
+}
+.sequence {
+  background-position: -71px -1090px;
+}
+.shift {
+  background-position: -87px -1090px;
+}
+.sibcoin {
+  background-position: -34px -1107px;
+}
+.solarcoin {
+  background-position: -53px -1107px;
+}
+.sonm {
+  background-position: -70px -1106px;
+}
+.sphere {
+  background-position: -87px -1107px;
+}
+.spreadcoin {
+  background-position: -34px -1124px;
+}
+.startcoin {
+  background-position: -52px -1123px;
+}
+.stealthcoin {
+  background-position: -70px -1123px;
+}
+.Storm {
+  background-position: -87px -1124px;
+}
+.streamr_datacoin {
+  background-position: -34px -1141px;
+}
+.substratum {
+  background-position: -53px -1141px;
+}
+.suncontract {
+  background-position: -71px -1141px;
+}
+.swarm_city {
+  background-position: -87px -1141px;
+}
+.syndicate {
+  background-position: -34px -1158px;
+}
+.synereo {
+  background-position: -34px -1158px;
+}
+.synergy {
+  background-position: -70px -1157px;
+}
+.taas {
+  background-position: -87px -1158px;
+}
+.time_new_bank {
+  background-position: -34px -1175px;
+}
+.tokes {
+  background-position: -34px -1175px;
+}
+.transfercoin {
+  background-position: -71px -1175px;
+}
+.triggers {
+  background-position: -87px -1175px;
+}
+.tron {
+  background-position: -34px -1192px;
+}
+.trustplus {
+  background-position: -53px -1192px;
+}
+.unbreakablecoin {
+  background-position: -71px -1192px;
+}
+.vcash {
+  background-position: -87px -1192px;
+}
+.vechain {
+  background-position: -34px -1209px;
+}
+.vericoin {
+  background-position: -53px -1209px;
+}
+.veriumreserve {
+  background-position: -71px -1209px;
+}
+.vertcoin {
+  background-position: -87px -1209px;
+}
+.viacoin {
+  background-position: -34px -1226px;
+}
+.vibe {
+  background-position: -53px -1226px;
+}
+.viberate {
+  background-position: -70px -1226px;
+}
+.voxels {
+  background-position: -87px -1226px;
+}
+.vtorrent {
+  background-position: -34px -1243px;
+}
+.wabi {
+  background-position: -53px -1243px;
+}
+.walton {
+  background-position: -70px -1243px;
+}
+.wetrust {
+  background-position: -87px -1243px;
+}
+.whitecoin {
+  background-position: -34px -1260px;
+}
+.xaurum {
+  background-position: -53px -1260px;
+}
+.yoyow {
+  background-position: -71px -1260px;
+}
+.zclassic {
+  background-position: -87px -1260px;
+}
+.zcoin {
+  background-position: -34px -1277px;
+}
+.zencash {
+  background-position: -53px -1277px;
+}
+.rwogive {
+  background-position: -71px -1277px;
+}
+.adtoken {
+  background-position: -87px -1277px;
+}
+.aelf {
+  background-position: -34px -1294px;
+}
+.aeon {
+  background-position: -53px -1294px;
+}
+.aeron {
+  background-position: -71px -1294px;
+}
+.aeternity {
+  background-position: -87px -1292px;
+}
+.agoras-tokens {
+  background-position: -34px -1311px;
+}
+.agrello {
+  background-position: -53px -1311px;
+}
+.airswap {
+  background-position: -71px -1311px;
+}
+.airtoken {
+  background-position: -87px -1311px;
+}
+.aion {
+  background-position: -71px -1328px;
+}
+.ambrosus {
+  background-position: -34px -1328px;
+}
+.apx {
+  background-position: -53px -1328px;
+}
+
+/*
+##
+##  Enhancer for YouTubeâ„¢
+##  =====================
+##
+##  Author: Maxime RF <https://www.mrfdev.com>
+##
+##  This file is protected by copyright laws and international copyright
+##  treaties, as well as other intellectual property laws and treaties.
+##
+##  All rights not expressly granted to you are retained by the author.
+##  Read the license.txt file for more details.
+##
+##  Â© MRFDEV.com - All Rights Reserved
+##
+*/
+:root {
+  --primary-color: #d40000;
+  --box-shadow-color: #000;
+  --channels-bdi-span-text-color: #000;
+  --max-width: 720px;
+  --width: 95%;
+  color-scheme: light;
+  --text-color: #000;
+  --nav-text-color: #252525;
+  --nav-text-color-hover: #000;
+  --background-color: #fff;
+  --header-background-color: #fff;
+  --fieldset-background-color: #fff;
+  --fieldset-border-color: #ccc;
+  --player-control-svg-control-fill-color: #222;
+  --label-theme-svg-fill-color: #222;
+  --modal-content-background-color: #fff;
+  --modal-content-border-color: #ccc;
+  --modal-header-close-modal-svg-fill-color: #000;
+  --hide-sponsor-svg-fill-color: #000;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --text-color: #e8eaed;
+    --nav-text-color: #e8eaed;
+    --nav-text-color-hover: #fff;
+    --background-color: #202124;
+    --header-background-color: #292a2d;
+    --fieldset-background-color: #292a2d;
+    --fieldset-border-color: #141414;
+    --player-control-svg-control-fill-color: #ccc;
+    --label-theme-svg-fill-color: #fff;
+    --modal-content-background-color: #292a2d;
+    --modal-content-border-color: rgba(255, 255, 255, .25);
+    --modal-header-close-modal-svg-fill-color: #ccc;
+    --hide-sponsor-svg-fill-color: #ccc;
+  }
+}
+body {
+  font-family: "Segoe UI", "San Francisco", Ubuntu, "Open Sans", Roboto, Arial, sans-serif;
+  font-size: 1em;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+html[lang="nl"] nav {
+  max-width: 900px;
+}
+html[lang="el"] nav,
+html[lang="uk"] nav,
+html[lang="ru"] nav {
+  max-width: 930px;
+}
+html[lang="id"] nav {
+  max-width: 1024px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+body[dir="ltr"] nav div {
+  margin-right: 1em;
+}
+body[dir="rtl"] nav div {
+  margin-left: 1em;
+}
+body[dir="ltr"] nav div:first-of-type {
+  margin-right: auto;
+}
+body[dir="rtl"] nav div:first-of-type {
+  margin-left: auto;
+}
+.extension-icon {
+  height: 2em;
+  width: 2em;
+}
+body[dir="ltr"] nav .extension-icon {
+  margin-right: .5em;
+}
+body[dir="rtl"] nav .extension-icon {
+  margin-left: .5em;
+}
+nav .extension-name {
+  color: var(--nav-text-color);
+  font-weight: bold;
+}
+@keyframes nav-icon-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes nav-icon-scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.2, 1.2, 1);
+  }
+}
+nav .rate svg {
+  animation-name: nav-icon-rotate;
+  animation-delay: 500ms;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+}
+nav .donate svg {
+  animation-name: nav-icon-scale;
+  animation-delay: 1.5s;
+  animation-duration: 400ms;
+  animation-iteration-count: 1;
+}
+nav svg {
+  fill: var(--primary-color);
+  height: 1.5em;
+  width: 1.5em;
+  transition-duration: 800ms;
+  transition-property: transform;
+}
+nav div.focus:not(.donate) svg,
+nav div:not(.donate):hover svg {
+  transform: rotate(360deg);
+}
+nav .donate.focus svg,
+nav .donate:hover svg {
+  animation-name: nav-icon-scale;
+  animation-duration: 550ms;
+  animation-iteration-count: infinite;
+}
+body[dir="ltr"] svg {
+  margin-right: .125em;
+}
+body[dir="rtl"] svg {
+  margin-left: .125em;
+}
+nav a {
+  color: var(--nav-text-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--nav-text-color-hover);
+}
+main {
+  margin: 2em auto;
+  max-width: var(--max-width);
+  width: var(--width);
+}
+main a svg {
+  transform: translateY(25%);
+}
+body[dir="ltr"] label + input,
+body[dir="ltr"] label + select,
+body[dir="ltr"] label + select + select,
+body[dir="ltr"] input + bdi,
+body[dir="ltr"] input + button,
+body[dir="ltr"] input + span {
+  margin-left: .25em;
+}
+body[dir="rtl"] label + input,
+body[dir="rtl"] label + select,
+body[dir="rtl"] label + select + select,
+body[dir="rtl"] input + bdi,
+body[dir="rtl"] input + button,
+body[dir="rtl"] input + span {
+  margin-right: .25em;
+}
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: 1em;
+}
+input[type="radio"]:checked,
+input[type="checkbox"]:checked,
+input[type="range"] {
+  filter: grayscale(100%);
+}
+input:disabled,
+select:disabled,
+button:disabled {
+  cursor: not-allowed;
+}
+select#locale {
+  width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+hr {
+  border: 1px dashed #ccc;
+  width: 80%;
+}
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.group {
+  margin-bottom: 1.25em;
+}
+.row {
+  margin-bottom: .5em;
+}
+body[dir="ltr"] .indented {
+  margin-left: 24px;
+}
+body[dir="ltr"] .indented-2x {
+  margin-left: 48px;
+}
+body[dir="rtl"] .indented {
+  margin-right: 24px;
+}
+body[dir="rtl"] .indented-2x {
+  margin-right: 48px;
+}
+.hidden {
+  display: none !important;
+}
+@keyframes blink {
+  from, 50%, to {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation-name: blink;
+  animation-duration: 1.2s;
+}
+.animated {
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+fieldset {
+  background-color: var(--fieldset-background-color);
+  border: .077em solid var(--fieldset-border-color);
+  border-radius: .25em;
+  box-shadow: var(--box-shadow-color) 0px .25em .5em -.25em;
+  margin-bottom: 2em;
+  padding: .8em;
+}
+legend,
+.control-label {
+  font-weight: bold;
+}
+.control-label + div {
+  margin-top: .5em;
+}
+.radio-inline,
+.checkbox-inline {
+  display: inline-block;
+}
+body[dir="ltr"] .radio-inline,
+body[dir="ltr"] .checkbox-inline {
+  margin-right: .769em;
+}
+body[dir="rtl"] .radio-inline,
+body[dir="rtl"] .checkbox-inline {
+  margin-left: .769em;
+}
+.alert {
+  border-radius: .231em;
+  padding: .462em;
+}
+.alert svg {
+  height: 2.5em;
+  width: 2.5em;
+  min-width: 2.5em;
+}
+body[dir="ltr"] .alert svg {
+  margin-right: .5em;
+}
+body[dir="rtl"] .alert svg {
+  margin-left: .5em;
+}
+.alert-warning {
+  background-color: var(--primary-color);
+  color: #ffe2e2;
+}
+label.theme svg {
+  fill: var(--label-theme-svg-fill-color);
+}
+#customcolors {
+  display: flex;
+  flex-wrap: wrap;
+}
+#customcolors div {
+  margin-bottom: .25em;
+}
+body[dir="ltr"] #customcolors div {
+  margin-right: 1em;
+}
+body[dir="rtl"] #customcolors div {
+  margin-left: 1em;
+}
+@keyframes checkmark-stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes checkmark-fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 1.875em var(--primary-color);
+  }
+}
+@keyframes checkmark-scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+.checkmark {
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px var(--primary-color);
+  height: 2em;
+  margin: 0 .8em;
+  stroke-miterlimit: 10;
+  stroke-width: 4;
+  stroke: #fff;
+  visibility: hidden;
+  width: 2em;
+}
+.checkmark.show {
+  visibility: visible;
+  animation: checkmark-fill .4s ease-in-out .4s forwards, checkmark-scale .3s ease-in-out .9s both;
+}
+.checkmark.show .checkmark-circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+  stroke: var(--primary-color);
+  fill: none;
+  animation: checkmark-stroke .5s cubic-bezier(.65, 0, .45, 1) forwards;
+}
+.checkmark.show .checkmark-check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: checkmark-stroke .3s cubic-bezier(.65, 0, .45, 1) .8s forwards;
+}
+.player-controls {
+  display: flex;
+  flex-wrap: wrap;
+}
+.player-control {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.player-control svg.control {
+  fill: var(--player-control-svg-control-fill-color);
+  height: 3em;
+  width: 3em;
+}
+.player-control span {
+  position: relative;
+  top: -.8em;
+  height: 1.2em;
+  width: 1.2em;
+}
+body[dir="ltr"] .player-control span {
+  left: -.4em;
+}
+body[dir="rtl"] .player-control span {
+  left: 0;
+  right: -.4em;
+}
+.player-control .info svg {
+  fill: #999;
+  height: 1.2em;
+  width: 1.2em;
+  visibility: hidden;
+}
+.player-control .info.warning svg {
+  fill: var(--primary-color);
+  transform: scale(1.2);
+}
+.player-control:hover .info svg {
+  visibility: visible;
+}
+.player-control span::before {
+  --scale: 0;
+  --player-control-span-before-background-color: #222;
+  --player-control-span-before-border-color: transparent;
+  --player-control-span-before-color: #fff;
+  content: attr(data-tooltip);
+  background: var(--player-control-span-before-background-color);
+  color: var(--player-control-span-before-color);
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+  padding: .5rem;
+  border: .05em solid var(--player-control-span-before-border-color);
+  border-radius: .25em;
+  width: max-content;
+  max-width: 2000%;
+  transition: 150ms transform;
+  transition-delay: 10ms;
+  transform-origin: bottom center;
+}
+@media (prefers-color-scheme: dark) {
+  .player-control span::before {
+    --scale: 0;
+    --player-control-span-before-background-color: #202124;
+    --player-control-span-before-border-color: #000;
+    --player-control-span-before-color: #e8eaed;
+  }
+}
+.player-control span:hover::before {
+  --scale: 1;
+  transition-delay: 350ms;
+}
+.info-link {
+  margin: 0 .5em;
+}
+.info-link svg {
+  fill: #999;
+  height: 1.5em;
+  width: 1.5em;
+  transform: translateY(9%);
+}
+.info-link:hover svg {
+  fill: #222;
+}
+.autoplay-toggle-button-container {
+  margin: 0 .5em;
+  height: .75em;
+  position: relative;
+  top: .125em;
+  width: 1.875em;
+  transform: scale(1.15);
+}
+.autoplay-toggle-button {
+  height: .75em;
+  width: 1.875em;
+  border-radius: .75em;
+  top: 50%;
+  position: relative;
+  cursor: pointer;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIGhlaWdodD0iMTIiIHdpZHRoPSIzMCI+PGRlZnMgLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi43IDExYzIuOTUgMCA1LjMtMi4yMSA1LjMtNXMtMi4zNS01LTUuMy01SDcuM0M0LjM1IDEgMiAzLjIxIDIgNnMyLjM1IDUgNS4zIDVoMTUuNHoiIGZpbGw9IiNjY2MiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjMgMUM0LjM1IDEgMiAzLjIxIDIgNnMyLjM1IDUgNS4zIDVoMTUuNEE1LjE2IDUuMTYgMCAwMDI4IDZsLS4wMy0uNTRBNS4xNiA1LjE2IDAgMDAyMi43IDFINy4zem0xNS40IDExYzMuNDUgMCA2LjMtMi42IDYuMy02cy0yLjg1LTYtNi4zLTZINy4zQzMuODUgMCAxIDIuNiAxIDZzMi44NSA2IDYuMyA2aDE1LjR6IiBmaWxsPSIjNzc3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+PC9zdmc+);
+  background-size: cover;
+  transform: translate(0, -50%);
+  transition: all .08s cubic-bezier(.4, 0, 1, 1);
+}
+.autoplay-toggle-button[aria-checked="true"] {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIGhlaWdodD0iMTIiIHdpZHRoPSIzMCI+PGRlZnMgLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi43IDExYzIuOTUgMCA1LjMtMi4yMSA1LjMtNXMtMi4zNS01LTUuMy01SDcuM0M0LjM1IDEgMiAzLjIxIDIgNnMyLjM1IDUgNS4zIDVoMTUuNHoiIGZpbGw9IiNjY2MiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjMgMUM0LjM1IDEgMiAzLjIxIDIgNnMyLjM1IDUgNS4zIDVoMTUuNEE1LjE2IDUuMTYgMCAwMDI4IDZsLS4wMy0uNTRBNS4xNiA1LjE2IDAgMDAyMi43IDFINy4zem0xNS40IDExYzMuNDUgMCA2LjMtMi42IDYuMy02cy0yLjg1LTYtNi4zLTZINy4zQzMuODUgMCAxIDIuNiAxIDZzMi44NSA2IDYuMyA2aDE1LjR6IiBmaWxsPSIjNzc3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+PC9zdmc+);
+  background-size: cover;
+  background-color: transparent;
+  transition: all .08s cubic-bezier(.4, 0, 1, 1);
+}
+.autoplay-toggle-button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.063em;
+  width: 1.063em;
+  border-radius: 1.063em;
+  margin-top: -.156em;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE3IDE3IiB3aWR0aD0iMTAwJSI+PGRlZnMgLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjUgMTZhNy41IDcuNSAwIDEwMC0xNSA3LjUgNy41IDAgMDAwIDE1eiIgZmlsbD0iIzk5OSIgZmlsbC1ydWxlPSJldmVub2RkIiAvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE3IDguNWE4LjUgOC41IDAgMTEtMTcgMCA4LjUgOC41IDAgMDExNyAwem0tMSAwYTcuNSA3LjUgMCAxMS0xNSAwIDcuNSA3LjUgMCAwMTE1IDB6IiBmaWxsPSIjNzc3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+PHBhdGggZD0iTTUuNSAxMmgyVjVoLTJ2N3pNOS41IDV2N2gyVjVoLTJ6IiBmaWxsPSIjZmZmIiAvPjwvc3ZnPg==);
+  background-size: cover;
+  transition: all .08s cubic-bezier(.4, 0, 1, 1);
+}
+.autoplay-toggle-button[aria-checked="true"]:after {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE3IDE3IiB3aWR0aD0iMTAwJSI+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtIDE3LDguNSBjIDAsNC42OTQ0MjQgLTMuODA1NTgsOC40OTk5OTYgLTguNSw4LjQ5OTk5NiBDIDMuODA1NTc5NywxNi45OTk5OTYgMCwxMy4xOTQ0MjQgMCw4LjUgMCwzLjgwNTU3NjUgMy44MDU1Nzk3LDMuNjg5OTk4N2UtNiA4LjUsMy42ODk5OTg3ZS02IDEzLjE5NDQyLDMuNjg5OTk4N2UtNiAxNywzLjgwNTU3NjUgMTcsOC41IFogTSAxMiw4LjUgNi41LDUgdiA3IHogTSA4LjUsMTYgYyA0LjE0MjEzOCwwIDcuNDk5OTk3LC0zLjM1Nzg2NCA3LjQ5OTk5NywtNy41IEMgMTUuOTk5OTk3LDQuMzU3ODY0NSAxMi42NDIxMzgsMSA4LjUsMSA0LjM1Nzg2MTYsMSAxLjAwMDAwMzMsNC4zNTc4NjQ1IDEuMDAwMDAzMyw4LjUgMS4wMDAwMDMzLDEyLjY0MjEzNiA0LjM1Nzg2MTYsMTYgOC41LDE2IFoiIGZpbGw9IiM3NzciIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiA4LjVhNy41IDcuNSAwIDExLTE1IDAgNy41IDcuNSAwIDAxMTUgMHptLTQgMEw2LjUgMTJWNUwxMiA4LjV6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIC8+PC9zdmc+);
+  left: .063em;
+  background-size: cover;
+  background-color: transparent;
+  transform: translateX(.813em);
+}
+#backgroundcolor {
+  margin: 0 .5em;
+}
+#cinemamode-preview {
+  margin-top: .769em;
+}
+#cinemamode-page {
+  background-image: url("/resources/yt-watch-page.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 40.3125em;
+}
+#cinemamode-background {
+  min-height: 27.25em;
+}
+#cinemamode-background img {
+  position: relative;
+  left: 4.5625em;
+  top: 4.25em;
+  height: auto;
+  width: 100%;
+  max-width: 19.75em;
+}
+body[dir="rtl"] #cinemamode-background img {
+  left: -16em;
+}
+#volume {
+  position: relative;
+  top: .2em;
+}
+#channels {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+#channels bdi {
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+  border-radius: .25em;
+  margin-bottom: .5em;
+  padding: 0 .25em;
+}
+#channels bdi span {
+  color: var(--channels-bdi-span-text-color);
+}
+body[dir="ltr"] #channels bdi {
+  margin-right: 1em;
+}
+body[dir="rtl"] #channels bdi {
+  margin-left: 1em;
+}
+#channels span {
+  cursor: default;
+  margin: .25em .4em;
+}
+#channels svg {
+  cursor: pointer;
+  fill: #333;
+  height: 1.2em;
+  width: 1.2em;
+}
+.quality {
+  display: inline-block;
+}
+body[dir="ltr"] .quality {
+  margin-left: 24px;
+}
+body[dir="rtl"] .quality {
+  margin-right: 24px;
+}
+label.theme {
+  display: block;
+}
+label.theme a {
+  text-decoration: none;
+}
+#customcssrules,
+#customscript {
+  direction: ltr;
+  display: block;
+  margin: .769em 0;
+  width: 100%;
+}
+body[dir="ltr"] #customcssrules:invalid,
+body[dir="ltr"] #customscript:invalid {
+  direction: ltr;
+}
+body[dir="rtl"] #customcssrules:invalid,
+body[dir="rtl"] #customscript:invalid {
+  direction: rtl;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.modal {
+  -webkit-overflow-scrolling: touch;
+  bottom: 0;
+  display: none;
+  outline: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: visibility .3s ease-in-out;
+  visibility: hidden;
+  max-width: var(--max-width);
+  width: var(--width);
+  z-index: 100;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition-property: visibility;
+  transition-duration: 0s;
+  visibility: visible;
+}
+.modal-dialog {
+  transform: translate(0, -25%);
+  transition: transform .3s ease-out;
+  margin-top: 1.154em;
+  position: relative;
+  width: auto;
+}
+.modal-open .modal-dialog {
+  transform: translate(0, 0);
+}
+.modal-content {
+  background-clip: padding-box;
+  background-color: var(--modal-content-background-color);
+  border-radius: .462em;
+  border: .077em solid var(--modal-content-border-color);
+  box-shadow: 0 .231em .692em rgba(0, 0, 0, .5);
+  outline: 0;
+  position: relative;
+}
+.modal-header {
+  border-bottom: .077em solid var(--modal-content-border-color);
+  padding: 1.154em;
+}
+.modal-header .close-modal {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  opacity: .7;
+  text-decoration: none;
+  padding: 0;
+}
+body[dir="ltr"] .modal-header .close-modal {
+  float: right;
+}
+body[dir="rtl"] .modal-header .close-modal {
+  float: left;
+}
+.modal-header .close-modal:hover,
+.modal-header .close-modal:focus {
+  opacity: 1;
+}
+.modal-header .close-modal svg {
+  fill: var(--modal-header-close-modal-svg-fill-color);
+  height: 1.5em;
+  width: 1.5em;
+}
+.modal-title {
+  margin: 0;
+}
+.modal-body {
+  padding: 1.154em;
+}
+.modal-footer {
+  border-top: .077em solid var(--modal-content-border-color);
+  padding: 1.154em;
+}
+body[dir="ltr"] .modal-footer {
+  text-align: right;
+}
+body[dir="rtl"] .modal-footer {
+  text-align: left;
+}
+body[dir="ltr"] .modal-footer button + button {
+  margin-left: .385em;
+}
+body[dir="rtl"] .modal-footer button + button {
+  margin-right: .385em;
+}
+#modal-backdrop {
+  background-color: #000;
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: opacity .3s ease-in-out;
+  width: 100%;
+  z-index: 99;
+}
+#modal-backdrop.fade {
+  opacity: 0;
+}
+#modal-backdrop.in {
+  opacity: .5;
+}
+.modal textarea {
+  height: 40vh;
+  width: 100%;
+}
+
+.selectClearAll {
+  margin-bottom: 8px;
+}
+
+.colsWrap div label i.grayFullBullishIcon, .colsWrap div label i.grayEmptyBullishIcon, .colsWrap li label i.grayFullBullishIcon, .colsWrap li label i.grayEmptyBullishIcon {
+  margin-right: 3px;
+}
+.grayFullBullishIcon {
+  background-position: -129px -3384px;
+}
+
+.grayFullBullishIcon, .grayEmptyBullishIcon {
+  background-image: url(https://i-invdn-com.investing.com/newSiteIconsSprite_v42j.png);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.grayEmptyBullishIcon {
+  background-position: -129px -3401px;
+}
+
+.grayFullBullishIcon, .grayEmptyBullishIcon {
+  background-image: url(https://i-invdn-com.investing.com/newSiteIconsSprite_v42j.png);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
