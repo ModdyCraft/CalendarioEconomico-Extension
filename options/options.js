@@ -95,7 +95,7 @@ apply.onclick = function() {
     console.log("Date Font Color: "+datefontcolor);
     console.log("Time Zone Selected: "+timezone);
     chrome.storage.local.set({
-        'colorBackgorund': backgroundcolor
+        colorBackgorund: backgroundcolor
     }, function(){
         showToast("Options Saved");
     });

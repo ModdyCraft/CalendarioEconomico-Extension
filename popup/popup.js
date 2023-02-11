@@ -23,6 +23,9 @@ setTimeout(function(){
     loadCalendar();
 }, 100);
 
-chrome.storage.local.get('colorBackgorund', function(items){
-    console.log(items.colorBackground);
+console.log("estas bien?");
+chrome.storage.local.get({
+    colorBackgorund: 'red'
+}, function(data){
+    console.log(data.colorBackground);
 });
