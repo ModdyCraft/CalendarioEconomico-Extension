@@ -22,10 +22,3 @@ calendarApiHTML.onload = function(){
 setTimeout(function(){
     loadCalendar();
 }, 100);
-
-console.log("estas bien?");
-chrome.storage.local.get({
-    colorBackgorund: 'red'
-}, function(data){
-    console.log(data.colorBackground);
-});
