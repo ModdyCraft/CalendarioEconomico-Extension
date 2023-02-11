@@ -2602,3 +2602,14 @@ body[dir="rtl"] .modal-footer button + button {
   height: 12px;
   display: inline-block;
 }
+
+#toast {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 55%;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
